@@ -1,4 +1,4 @@
-Breadth First Search 
+**Breadth First Search** 
 
 BFS(Graph, Start)
 
@@ -19,7 +19,7 @@ BFS(Graph, Start)
 
 End BFS
 
-Depth First Search
+**Depth First Search**
 
 DFS(Node)
 
