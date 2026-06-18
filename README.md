@@ -32,4 +32,25 @@ DFS(Node)
 
 End DFS
 
+**8-Queen Problem**
+
+NQueens(row)
+
+1. If row = 8
+      Print the solution
+      Return True
+
+2. For each column from 0 to 7
+
+      If placing a queen at (row, column) is safe
+
+            Place Queen at (row, column)
+
+            NQueens(row + 1)
+
+            Remove Queen from (row, column)
+            // Backtrack
+
+End NQueens
+
 
